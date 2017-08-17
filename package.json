@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/1ven/webpack-node/issues"
   },
-  "homepage": "https://github.com/1ven/webpack-node#readme"
+  "homepage": "https://github.com/1ven/webpack-node#readme",
+  "peerDependencies": {
+    "webpack": "^3.5.4"
+  },
+  "bin": {
+    "webpack-node": "index.js"
+  },
+  "dependencies": {
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.5.4"
+  }
 }
